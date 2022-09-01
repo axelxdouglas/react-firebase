@@ -2,6 +2,7 @@ import './App.css';
 import Contador from './components/Contador'
 import Listado from './components/Listado';
 import Temperatura from './components/Temperatura';
+import Formulario from './components/Formulario';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Listado></Listado>
 
       <Temperatura></Temperatura>
+      <Formulario></Formulario>
     </div>
   );
 }

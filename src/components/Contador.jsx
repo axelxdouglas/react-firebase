@@ -13,7 +13,7 @@ import React, {Fragment, useState} from 'react'
 
   return (
     <Fragment>
-        <h2>Cantidad del contador: {numero} </h2>
+        <h2 className="mt-3">Cantidad del contador: {numero} </h2>
         <p>Aplicando useState</p>
         <button className="btn btn-success btn-block" onClick={Aumentar}>Aumentar</button>
         <button className="btn btn-success btn-block" onClick={Reducir}>Reducir</button>
