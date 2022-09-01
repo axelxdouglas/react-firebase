@@ -15,8 +15,8 @@ import React, {Fragment, useState} from 'react'
     <Fragment>
         <h2>Cantidad del contador: {numero} </h2>
         <p>Aplicando useState</p>
-        <button onClick={Aumentar}>Aumentar</button>
-        <button onClick={Reducir}>Reducir</button>
+        <button className="btn btn-success btn-block" onClick={Aumentar}>Aumentar</button>
+        <button className="btn btn-success btn-block" onClick={Reducir}>Reducir</button>
     </Fragment>
   )
 }
