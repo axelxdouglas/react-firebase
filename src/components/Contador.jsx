@@ -14,6 +14,7 @@ import React, {Fragment, useState} from 'react'
   return (
     <Fragment>
         <h2>Cantidad del contador: {numero} </h2>
+        <p>Aplicando useState</p>
         <button onClick={Aumentar}>Aumentar</button>
         <button onClick={Reducir}>Reducir</button>
     </Fragment>
